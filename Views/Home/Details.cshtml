@@ -1,0 +1,12 @@
+﻿
+@{
+    if (TempData.ContainsKey("Name"))
+    {
+        <h3>Name: @TempData.Peek("Name")</h3>
+    }
+    else
+    {
+        <h3>wtf man</h3>
+    }
+
+ }

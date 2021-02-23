@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Country>
+
+<div class="text-center">
+    <h3>Choose a country@*an occupied land surrounded by imaginary borders*@</h3>
+
+</div>
+<form asp-action="">
+    <select id="SOMETHING" name="SOMETHING">
+        <option value="France">France</option>
+        <option value="Haiti">Haiti</option>
+        <option value="Ukraine">Ukraine</option>
+    </select>
+    <br />
+    <br />
+    <input type="submit"  value="that one :-)" />
+
+</form>
+
+
+@*List<Cat>
+    cats = new List<Cat>
+        {
+        new Cat{ Name = "Sylvester", Age=8 },
+        new Cat{ Name = "Whiskers", Age=2 },
+        new Cat{ Name = "Sasha", Age=14 }
+        };*@
